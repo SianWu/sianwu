@@ -1,18 +1,17 @@
 $(function(){
 	//image source
 	var imgArray = new Array();
-	
-	imgArray[0]="images/about/marathon3.jpg";
-	imgArray[1]="images/about/piano.jpg";
-	imgArray[2]="images/about/drum.png";
-	imgArray[3]="images/about/speech.jpg";
+
+	imgArray[0]="images/about/P1293451.jpg";
+	imgArray[1]="images/about/P1293431.jpg";
+	imgArray[2]="images/about/P1293437.jpg";
 
 	//timer
 	var thisID=0;
 
 	window.setInterval(function(){
 		//get screen width
-		var width = $(window).width(); 
+		var width = $(window).width();
 
 		if(thisID==0){
 			$('.about-photo').css('width','250px');
@@ -32,4 +31,3 @@ $(function(){
 	},5000);
 
 });
-
